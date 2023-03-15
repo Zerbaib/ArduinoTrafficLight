@@ -4,6 +4,10 @@ A code in Arduino for traffic light
 ## Explication
 This code is used for my projet in my classroom.
 
+### You need
+![image](https://user-images.githubusercontent.com/81523999/225440710-bb5d2121-ad7f-4f40-9e2d-dc0a38aa09bf.png)
+
+
 ## Var explication
 Variable was named by a letter and a number like ``o3``
 
