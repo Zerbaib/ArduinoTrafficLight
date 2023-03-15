@@ -12,18 +12,18 @@ const int led11 = 12;
 const int led12 = 13;
 
 void setup() {
-    pinMode(led1, output);
-    pinMode(led2, output);
-    pinMode(led3, output);
-    pinMode(led4, output);
-    pinMode(led5, output);
-    pinMode(led6, output);
-    pinMode(led7, output);
-    pinMode(led8, output);
-    pinMode(led9, output);
-    pinMode(led10, output);
-    pinMode(led11, output);
-    pinMode(led12, output);
+    pinMode(led1, OUTPUT);
+    pinMode(led2, OUTPUT);
+    pinMode(led3, OUTPUT);
+    pinMode(led4, OUTPUT);
+    pinMode(led5, OUTPUT);
+    pinMode(led6, OUTPUT);
+    pinMode(led7, OUTPUT);
+    pinMode(led8, OUTPUT);
+    pinMode(led9, OUTPUT);
+    pinMode(led10, OUTPUT);
+    pinMode(led11, OUTPUT);
+    pinMode(led12, OUTPUT);
 }
 
 void loop() {
