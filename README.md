@@ -12,10 +12,14 @@ The sinification is:
 - ``o`` = orange color
 - ``r`` = red color
 
+
 - ``1`` = Is the first traffic light
 - ``2`` = Is the second traffic light
 - ``3`` = Is the third traffic light
 - ``4`` = Is the four traffic light
+
+## Code acces
+This code is in **[this file](https://github.com/Zerbaib/ArduinoTrafficLight/blob/main/main/main.ino)**
 
 ### License
 ```
