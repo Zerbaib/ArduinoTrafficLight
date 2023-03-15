@@ -29,6 +29,8 @@ void setup() {
 void loop() {
     digitalWrite(r1, LOW); // red 1 off
     digitalWrite(r2, LOW); // red 2 off
+    digitalWrite(o3, LOW); // orange 3 off
+    digitalWrite(o4, LOW); // orange 4 off
     digitalWrite(v1, HIGH); // green 1 on
     digitalWrite(v2, HIGH); // green 2 on
     
