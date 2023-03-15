@@ -12,7 +12,18 @@ const int led11 = 12;
 const int led12 = 13;
 
 void setup() {
-    //code 
+    pinMode(led1, output);
+    pinMode(led2, output);
+    pinMode(led3, output);
+    pinMode(led4, output);
+    pinMode(led5, output);
+    pinMode(led6, output);
+    pinMode(led7, output);
+    pinMode(led8, output);
+    pinMode(led9, output);
+    pinMode(led10, output);
+    pinMode(led11, output);
+    pinMode(led12, output);
 }
 
 void loop() {
