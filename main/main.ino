@@ -1,3 +1,4 @@
+// set the var
 const int v1 = 2;
 const int o1 = 3;
 const int r1 = 4;
