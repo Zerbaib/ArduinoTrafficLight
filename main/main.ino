@@ -30,37 +30,41 @@ void setup() {
 void loop() {
     digitalWrite(r1, LOW); // red 1 off
     digitalWrite(r2, LOW); // red 2 off
-    digitalWrite(o3, LOW); // orange 3 off
-    digitalWrite(o4, LOW); // orange 4 off
-    digitalWrite(v1, HIGH); // green 1 on
-    digitalWrite(v2, HIGH); // green 2 on
-    
     digitalWrite(r3, HIGH); // red 3 on
     digitalWrite(r4, HIGH); // red 4 on
     
-    delay(4000);
+    digitalWrite(o3, LOW); // orange 3 off
+    digitalWrite(o4, LOW); // orange 4 off
     
-    digitalWrite(v1, LOW); // green 1 off
-    digitalWrite(v2, LOW); // green 2 off
+    digitalWrite(v1, HIGH); // green 1 on
+    digitalWrite(v2, HIGH); // green 2 on
+    
+    delay(4000);
+
     digitalWrite(o1, HIGH); // orange 1 on
     digitalWrite(o2, HIGH); // orange 2 on
-    
+
+    digitalWrite(v1, LOW); // green 1 off
+    digitalWrite(v2, LOW); // green 2 off
+  
     delay(1000);
     
+    digitalWrite(r1, HIGH); // red 1 on
+    digitalWrite(r2, HIGH); // red 2 on 
     digitalWrite(r3, LOW); // red 3 off
     digitalWrite(r4, LOW); // red 4 off
-    digitalWrite(v3, HIGH); // green 3 on
-    digitalWrite(v4, HIGH); // green 4 on
-    
+
     digitalWrite(o1, LOW); // orange 1 off
     digitalWrite(o2, LOW); // orange 2 off
-    digitalWrite(r1, HIGH); // red 1 on
-    digitalWrite(r2, HIGH); // red 2 on
+
+    digitalWrite(v3, HIGH); // green 3 on
+    digitalWrite(v4, HIGH); // green 4 on
 
     delay(4000);
     
     digitalWrite(o3, HIGH); // orange 3 on
     digitalWrite(o4, HIGH); // orange 4 on
+    
     digitalWrite(v3, LOW); // green 3 off
     digitalWrite(v4, LOW); // green 4 off
 
