@@ -5,7 +5,7 @@ A code in Arduino for traffic light
 This code is used for my projet in my classroom.
 
 ### You need
-![image](https://user-images.githubusercontent.com/81523999/225440710-bb5d2121-ad7f-4f40-9e2d-dc0a38aa09bf.png)
+![image](https://user-images.githubusercontent.com/81523999/226837699-c7eed55c-587b-414c-b5c4-b323bb2652d0.png)
 
 
 ## Var explication
@@ -23,7 +23,7 @@ The sinification is:
 - ``4`` = Is the four traffic light
 
 ## Code acces
-This code is in **![image](https://user-images.githubusercontent.com/81523999/226837699-c7eed55c-587b-414c-b5c4-b323bb2652d0.png)**
+This code is in **[This file](https://github.com/Zerbaib/ArduinoTrafficLight/blob/main/main/main.ino)**
 
 ### License
 ```
