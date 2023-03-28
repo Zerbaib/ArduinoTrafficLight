@@ -1,5 +1,5 @@
 # ArduinotTrafficLight
-A code in Arduino for traffic light
+A code in Arduino for traffic light.
 
 ## Explication
 This code is used for my projet in my classroom.
