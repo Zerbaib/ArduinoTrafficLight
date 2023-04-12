@@ -19,6 +19,7 @@ The sinification is:
 - ``t`` = for time
 
 
+
 - ``1`` = Is the first traffic light
 - ``2`` = Is the second traffic light
 - ``3`` = Is the third traffic light
