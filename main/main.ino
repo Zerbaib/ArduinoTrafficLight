@@ -28,6 +28,7 @@ void setup() {
     pinMode(v4, OUTPUT);
     pinMode(o4, OUTPUT);
     pinMode(r4, OUTPUT);
+    Serial.begin(9600);
 }
 
 void loop() {
