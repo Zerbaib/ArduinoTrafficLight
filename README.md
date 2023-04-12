@@ -18,7 +18,7 @@ The sinification is:
 - ``p`` = for pause
 - ``t`` = for time
 
- 
+<br>
 
 - ``1`` = Is the first traffic light
 - ``2`` = Is the second traffic light
