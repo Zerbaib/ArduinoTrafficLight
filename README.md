@@ -9,12 +9,14 @@ This code is used for my projet in my classroom.
 
 
 ## Var explication
-Variable was named by a letter and a number like ``o3``
+Variable was named by a letter and a number like ``o3`` it was ``Orange for the third traffic light``
 
 The sinification is:
-- ``v`` = green color
+- ``g`` = green color
 - ``o`` = orange color
 - ``r`` = red color
+- ``p`` = for pause
+- ``t`` = for time
 
 
 - ``1`` = Is the first traffic light
