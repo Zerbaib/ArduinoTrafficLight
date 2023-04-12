@@ -12,7 +12,7 @@ const int g4 = 11;
 const int o4 = 12;
 const int r4 = 13;
 
-const int pV = 4000;
+const int pG = 4000;
 const int pO = 1000;
 
 void setup() {
@@ -51,7 +51,7 @@ void pV1(){
     digitalWrite(g1, HIGH); // green 1 on
     digitalWrite(g2, HIGH); // green 2 on
     Serial.println("Green fire 1/2 on");
-    delay(pV);
+    delay(pG);
 }
 void pV2(){
     digitalWrite(r1, HIGH); // red 1 on
@@ -66,7 +66,7 @@ void pV2(){
     digitalWrite(g3, HIGH); // green 3 on
     digitalWrite(g4, HIGH); // green 4 on
     Serial.println("Green fire 3/4 on");
-    delay(pV);
+    delay(pG);
 }
 void pO1(){
     digitalWrite(o1, HIGH); // orange 1 on
