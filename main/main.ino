@@ -12,6 +12,10 @@ const int v4 = 11;
 const int o4 = 12;
 const int r4 = 13;
 
+const int pV = 4000;
+const int pO = 1000;
+const int pR = 5000;
+
 void setup() {
     pinMode(v1, OUTPUT);
     pinMode(o1, OUTPUT);
