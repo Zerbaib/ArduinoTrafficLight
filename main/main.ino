@@ -14,7 +14,6 @@ const int r4 = 13;
 
 const int pV = 4000;
 const int pO = 1000;
-const int pR = 5000;
 
 void setup() {
     pinMode(v1, OUTPUT);
@@ -43,7 +42,7 @@ void loop() {
     digitalWrite(v1, HIGH); // green 1 on
     digitalWrite(v2, HIGH); // green 2 on
     
-    delay(4000);
+    delay(pV);
 
     digitalWrite(o1, HIGH); // orange 1 on
     digitalWrite(o2, HIGH); // orange 2 on
@@ -51,7 +50,7 @@ void loop() {
     digitalWrite(v1, LOW); // green 1 off
     digitalWrite(v2, LOW); // green 2 off
   
-    delay(1000);
+    delay(pO);
     
     digitalWrite(r1, HIGH); // red 1 on
     digitalWrite(r2, HIGH); // red 2 on 
@@ -64,7 +63,7 @@ void loop() {
     digitalWrite(v3, HIGH); // green 3 on
     digitalWrite(v4, HIGH); // green 4 on
 
-    delay(4000);
+    delay(pV);
     
     digitalWrite(o3, HIGH); // orange 3 on
     digitalWrite(o4, HIGH); // orange 4 on
@@ -72,6 +71,6 @@ void loop() {
     digitalWrite(v3, LOW); // green 3 off
     digitalWrite(v4, LOW); // green 4 off
 
-    delay(1000);
+    delay(pO);
 
 }
