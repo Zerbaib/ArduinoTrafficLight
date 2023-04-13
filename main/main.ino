@@ -53,6 +53,7 @@ void tV1(){
     Serial.println("Green fire 1/2 on");
     delay(pG);
 }
+
 void tV2(){
     digitalWrite(r1, HIGH); // red 1 on
     digitalWrite(r2, HIGH); // red 2 on
@@ -68,6 +69,7 @@ void tV2(){
     Serial.println("Green fire 3/4 on");
     delay(pG);
 }
+
 void tO1(){
     digitalWrite(o1, HIGH); // orange 1 on
     digitalWrite(o2, HIGH); // orange 2 on
@@ -77,6 +79,7 @@ void tO1(){
     Serial.println("Green fire 1/2 off");
     delay(pO);
 }
+
 void tO2(){
     digitalWrite(o3, HIGH); // orange 3 on
     digitalWrite(o4, HIGH); // orange 4 on
